@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Entry table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Project -->
+  
+  <div class="container">
+      <div class="content">
+         <h1>Please fill up boxs</h1>
+           <div class="boxs">
+             <input type="text" name="box1" id="box1" class="box1 box" required placeholder="Name">
+             <input type="number" name="box2" id="box2" class="box2 box" required placeholder="Roll">
+              <button type="submit" class="btn" id="btn">Show profile</button>
+           </div>
+      </div>
+      <div class="data-table" id="data-table">
+          <table border="1px" class="show-table" id="show-table">
+              <tr class="thead">
+                  <th>Name</th>
+                  <th>Roll</th>
+              </tr>
+          </table>
+      </div>
+  </div>
+  
+  
+  <script src="main.js"></script>
+</body>
+</html> 
